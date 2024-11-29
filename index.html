@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>القوانين - keno</title>
+    <style>
+        /* تنسيق عام للصفحة */
+        body {
+            font-family: 'Cairo', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: url('https://cdn.discordapp.com/attachments/1311769650002001991/1312107291457228860/Comp.gif?ex=674b4aa4&is=6749f924&hm=b8d2a2ad94007e97f0bd6f9fe4b066188c86dbc926938d151ae741f6499f8fbb&') no-repeat center center/cover;
+            background-size: cover;
+            height: 100vh;
+            color: #fff;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            text-align: center;
+        }
+
+        /* رأس الصفحة */
+        header {
+            background-color: rgba(0, 0, 0, 0.8);
+            padding: 40px 0;
+            text-align: center;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.5);
+        }
+
+        header img {
+            max-width: 150px;
+            height: auto;
+            border-radius: 8px;
+            transition: transform 0.3s ease;
+        }
+
+        header img:hover {
+            transform: scale(1.1);
+        }
+
+        /* محتوى القوانين */
+        .rules {
+            background-color: rgba(255, 255, 255, 0.85);
+            padding: 40px 30px;
+            margin: 50px auto;
+            width: 90%;
+            max-width: 1000px;
+            border-radius: 15px;
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+            color: #333;
+            font-size: 18px;
+            line-height: 1.8;
+        }
+
+        .rules h1 {
+            color: #56d2db; /* اللون الأزرق الذي طلبته */
+            font-size: 36px;
+            margin-bottom: 20px;
+            font-weight: 600;
+        }
+
+        .rules p {
+            margin-bottom: 15px;
+            font-size: 20px;
+        }
+
+        .rules ul {
+            list-style-type: square;
+            margin-left: 30px;
+            font-size: 18px;
+            line-height: 1.7;
+        }
+
+        .rules ul li {
+            margin-bottom: 10px;
+        }
+
+        .rules h2 {
+            font-size: 28px;
+            color: #4A148C;
+            margin-top: 30px;
+            margin-bottom: 20px;
+            text-align: center;
+            font-weight: 600;
+        }
+
+        /* تحسين خط الرابط */
+        footer {
+            background-color: rgba(0, 0, 0, 0.8);
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            font-size: 16px;
+        }
+
+        footer a {
+            color: #3498db; /* اللون الأزرق */
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        footer a:hover {
+            color: #1abc9c; /* تأثير عند التمرير */
+        }
+    </style>
+</head>
+<body>
+
+    <!-- رأس الصفحة مع الشعار -->
+    <header>
+        <img src="https://cdn.discordapp.com/attachments/1311769650002001991/1311804610536538122/Comp_1.gif?ex=674ad97f&is=674987ff&hm=5de861f175c75cadcdabd7b12325cffead3daf87d605bbd226a62edceef3de8a&" alt="Logo">
+    </header>
+
+    <!-- محتوى القوانين -->
+    <div class="rules">
+        <h1>القوانين لدى متجر keno</h1>
+        <p>مرحبًا بك في متجرنا! تأكد من قراءة القوانين قبل إتمام أي عملية شراء. نتمنى لك حظًا سعيدًا!</p>
+        <p>شرائك من المتجر يعني موافقتك على القوانين التالية:</p>
+        
+        <h2>أنواع المنتجات:</h2>
+        <p><strong>المنتجات الأساسية:</strong></p>
+        <ul>
+            <li>مدة التسليم: أكثر من 24 ساعة.</li>
+            <li>إذا كان عدد الطلبات أكثر من 500، قد يستغرق التسليم حتى 48 ساعة.</li>
+            <li>في حال حدوث مشاكل، يمكن أن يستغرق التسليم حتى أسبوع كحد أقصى.</li>
+            <li>تتمتع بنسبة ضمان أعلى.</li>
+            <li>يتم ربط الحسابات بالمنصة المطلوبة بنسبة 90%.</li>
+            <li>يتم تضمين البريد الإلكتروني لإرسال الرموز.</li>
+        </ul>
+
+        <p><strong>المنتجات غير الأساسية:</strong></p>
+        <ul>
+            <li>مدة التسليم: أقل من 24 ساعة.</li>
+            <li>تعتمد على الحظ، وضمان الحساب يعتمد على ذلك.</li>
+            <li>نسبة الربط عشوائية.</li>
+            <li>لا يتضمن الحساب بريدًا إلكترونيًا لإرسال الرموز.</li>
+        </ul>
+
+        <p>بعد تسليم الحساب، يجب التحقق منه في أقل من 24 ساعة. بعد هذه الفترة، يتم إخلاء الضمان.</p>
+    </div>
+
+    <!-- قدم الصفحة مع الحقوق -->
+    <footer>
+        <p>جميع الحقوق محفوظة &copy; keno 2024 | <a href="https://discord.gg/EZ4HHpPg3X" target="_blank">اتصل بنا</a></p>
+    </footer>
+
+</body>
+</html>
